@@ -1,16 +1,11 @@
 'use strict';
 
-/**
- * element toggle function
- */
+
 
 const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
 
-/**
- * navbar variables
- */
 
 const navbar = document.querySelector("[data-nav]");
 const navOpenBtn = document.querySelector("[data-nav-open-btn]");
@@ -31,9 +26,7 @@ for (let i = 0; i < navElemArr.length; i++) {
 
 
 
-/**
- * go top
- */
+
 
 const goTopBtn = document.querySelector("[data-go-top]");
 
