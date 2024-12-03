@@ -60,7 +60,6 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
-  padding-bottom: 9.9px;
   box-sizing: border-box;
 }
 
